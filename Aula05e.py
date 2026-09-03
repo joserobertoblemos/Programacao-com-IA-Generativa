@@ -19,7 +19,7 @@ while tentativas < 3:
     elif palpite > numero_secreto:
         print("O número sorteado é menor que o seu palpite.")
     else:
-        print("O número sorteado é maior que o número sorteado.")
+        print("O número sorteado é maior que o número palpitado.")
 
 if acertou:
     print("parabéns!!! Você acertou o número secreto.")
